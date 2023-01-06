@@ -5,7 +5,7 @@ const data = [
     question2: "Have a trace of knowledge in all subjects?",
     category: {
       tag: "thoughtful",
-      color: "yellow",
+      color: "#F1C40F",
     },
   },
   {
@@ -14,7 +14,7 @@ const data = [
     question2: "Awlays have t write with a pen between your elbows?",
     category: {
       tag: "weird",
-      color: "purple",
+      color: "#AF7AC5",
     },
   },
   {
@@ -25,7 +25,7 @@ const data = [
       "be stuck with no human contact, but get a monthly, one hour walk in the courtyard?",
     category: {
       tag: "thoughtful",
-      color: "yellow",
+      color: "#F1C40F",
     },
   },
 ];

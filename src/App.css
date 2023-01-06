@@ -55,5 +55,38 @@ body {
   height: 15px;
 }
 
-.tag {
+.question:nth-child(odd) .question-content {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.question:nth-child(odd) .question-content::after {
+  left: calc(75% - 7.5px);
+}
+
+.question-content .tag {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  top: 5px;
+  left: 5px;
+  letter-spacing: 1px;
+  padding: 3px 7px 3px 7px;
+  border-radius: 15px;
+  position: absolute;
+
+  margin-bottom: 2rem;
+}
+
+.question:nth-child(odd) .question-content .tag {
+  left: auto;
+  right: 5px;
+}
+
+.question-content p {
+  font-size: 16px;
+  line-height: 16px;
+  margin: 10px 0;
+  max-width: 400px;
 }
