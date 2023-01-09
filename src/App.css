@@ -25,7 +25,6 @@ body {
   justify-content: flex-start;
   padding-right: 30px;
   position: relative;
-  margin: 10px 0;
   width: 75%;
 }
 
@@ -75,8 +74,7 @@ body {
   padding: 3px 7px 3px 7px;
   border-radius: 15px;
   position: absolute;
-
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .question:nth-child(odd) .question-content .tag {
@@ -84,9 +82,13 @@ body {
   right: 5px;
 }
 
+.title {
+  font-weight: bold;
+}
+
 .question-content p {
   font-size: 16px;
   line-height: 16px;
-  margin: 10px 0;
+  margin-bottom: 10px;
   max-width: 400px;
 }
