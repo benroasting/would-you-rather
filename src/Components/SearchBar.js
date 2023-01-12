@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import QuestionsFeed from "./QuestionsFeed";
+import questionsData from "../data";
 
-const Search = ({ questionsData }) => {
+const Search = () => {
   const [searchInput, setSearchInput] = useState("");
 
   const filteredQuestions = questionsData?.filter((data) => {

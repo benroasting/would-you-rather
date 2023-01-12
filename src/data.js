@@ -1,6 +1,5 @@
 const data = [
   {
-    header: "WOULD YOU RATHER...",
     question1: "Be the world's expert in one field ",
     question2: "Have a trace of knowledge in all subjects?",
     category: {
@@ -31,7 +30,7 @@ const data = [
   {
     header: "WOULD YOU RATHER...",
     question1:
-      "Find out that for years you've been horrendously misusing a word quite oftern ",
+      "Find out that for years you've been horrendously misusing a word quite often ",
     question2:
       "that for years you've been calling a coworker by the wrong name?",
     category: {
@@ -55,6 +54,44 @@ const data = [
     category: {
       tag: "random",
       color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Lose your life savings gambling ",
+    question2: "simply misplace it (with no possibility of finding it)?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Help someone move into a new house once ",
+    question2: "pick someone up from the airport 15 times?",
+    category: {
+      tag: "random",
+      color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Live a life in which everything you do seems like the first time ",
+    question2: "live a life in which you always know what to expect?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Be a slow talker ",
+    question2:
+      "be somone who doesn't listen very well and as a result occasionally says things like 'You are welcome' after being asked 'How are you doing?'",
+    category: {
+      tag: "awkward",
+      color: "#A2D9CE",
     },
   },
 ];
