@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import QuestionsFeed from "./Components/QuestionsFeed";
+import Search from "./Components/SearchBar";
+import data from "./data";
 
 function App() {
   return (
     <div className="App">
       <h1>Would You Rather ...</h1>
-      <QuestionsFeed />
+      <Search questionsData={data} />
     </div>
   );
 }

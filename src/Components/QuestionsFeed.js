@@ -1,13 +1,17 @@
-import questionsData from "../data";
 import Question from "./Questions";
 
-const QuestionsFeed = () =>
-  questionsData.length > 0 && (
-    <div className="questions-container">
-      {questionsData.map((data, i) => (
-        <Question data={data} key={i} />
-      ))}
-    </div>
+const QuestionsFeed = ({ filteredQuestions }) => {
+  console.log("filtered", filteredQuestions);
+
+  return (
+    filteredQuestions.length > 0 && (
+      <div className="questions-container">
+        {filteredQuestions.map((data, i) => (
+          <Question data={data} key={i} />
+        ))}
+      </div>
+    )
   );
+};
 
 export default QuestionsFeed;
