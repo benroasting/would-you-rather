@@ -94,6 +94,26 @@ const data = [
       color: "#A2D9CE",
     },
   },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Want children even though your spouse is sterile, adopt a child ",
+    question2: "find a surrogate (or equivalent)?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Have to wear a wig and admit it to your friends ",
+    question2:
+      "(as a girl) never shave or remove any body hair/(as a boy) shave all body hair but not have the excuse of athletics?",
+    category: {
+      tag: "random",
+      color: "#EB984E",
+    },
+  },
 ];
 
 export default data;
