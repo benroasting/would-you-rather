@@ -1,7 +1,6 @@
 import Question from "./Questions";
 
 const QuestionsFeed = ({ filteredQuestions }) => {
-  console.log("filtered", filteredQuestions);
 
   return (
     filteredQuestions.length > 0 && (

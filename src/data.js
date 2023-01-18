@@ -114,6 +114,44 @@ const data = [
       color: "#EB984E",
     },
   },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Take money out of the collection basket at church ",
+    question2:
+      "park in a handicapped spot right in front of a guy in a wheelchair?",
+    category: {
+      tag: "rude",
+      color: "gray",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Be able to read people's minds ",
+    question2: "be able to change people's thoughts?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Marry an annoying practical joker who frequently pulls the 'bucket over the door' gag and maky other elaborate jokes like it ",
+    question2: "marry someone with no sense of humor?",
+    category: {
+      tag: "weird",
+      color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Lose your ability to speak for one year ",
+    question2: "your ability to wak for a year?",
+    category: {
+      tag: "weird",
+      color: "#EB984E",
+    },
+  },
 ];
 
 export default data;
