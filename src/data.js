@@ -1,5 +1,6 @@
 const data = [
   {
+    header: "WOULD YOU RATHER...",
     question1: "Be the world's expert in one field ",
     question2: "Have a trace of knowledge in all subjects?",
     category: {
@@ -146,7 +147,7 @@ const data = [
   {
     header: "WOULD YOU RATHER...",
     question1: "Lose your ability to speak for one year ",
-    question2: "your ability to wak for a year?",
+    question2: "your ability to walk for a year?",
     category: {
       tag: "weird",
       color: "#EB984E",
