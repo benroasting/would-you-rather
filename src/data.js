@@ -36,7 +36,7 @@ const data = [
       "that for years you've been calling a coworker by the wrong name?",
     category: {
       tag: "awkward",
-      color: "#A2D9CE",
+      color: "#FFB5F7",
     },
   },
   {
@@ -92,7 +92,7 @@ const data = [
       "be somone who doesn't listen very well and as a result occasionally says things like 'You are welcome' after being asked 'How are you doing?'",
     category: {
       tag: "awkward",
-      color: "#A2D9CE",
+      color: "#FFB5F7",
     },
   },
   {
@@ -151,6 +151,62 @@ const data = [
     category: {
       tag: "weird",
       color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Drink a gallon of water from a small river 100yards downstream from a nuclear power plant ",
+    question2: "100yards downstream from a sewage treatment plant?",
+    category: {
+      tag: "gross",
+      color: "#A2D9CE",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Sleep on a hardwood floor every night",
+    question2: "always drinks three cups ofcoffee right before bed?",
+    category: {
+      tag: "random",
+      color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Have hair so greasy it constantly drips no matter how much you wash it ",
+    question2: "leave a constant drooling problem?",
+    category: {
+      tag: "gross",
+      color: "#A2D9CE",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Have to climb a pine tree naked",
+    question2: "jog through the desert for two hours in a heavy wool coat?",
+    category: {
+      tag: "random",
+      color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Marry a person who is constantly humming ",
+    question2: "someone who repeats everything you just said?",
+    category: {
+      tag: "weird",
+      color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Be hit by lightning ",
+    question2: "bitten by a shark?",
+    category: {
+      tag: "pain",
+      color: "#DD6D6D",
     },
   },
 ];
