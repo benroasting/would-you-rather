@@ -1,21 +1,9 @@
-import React, { useState } from "react";
-import QuestionsFeed from "./QuestionsFeed";
-import questionsData from "../data";
+import React from "react";
 
-const Search = () => {
-  const [searchInput, setSearchInput] = useState("");
-
-  const filteredQuestions = questionsData?.filter((data) => {
-    return (
-      data.category.tag.toLowerCase().includes(searchInput.toLowerCase()) ||
-      data.question1.toLowerCase().includes(searchInput.toLowerCase()) ||
-      data.question2.toLowerCase().includes(searchInput.toLowerCase())
-    );
-  });
-
+const Search = ({ onChange, searchText }) => {
   const searchHandler = (e) => {
     e.preventDefault();
-    setSearchInput(e.target.value);
+    onChange(e.target.value);
   };
 
   return (
@@ -24,9 +12,8 @@ const Search = () => {
         type="search"
         placeholder="Search Here"
         onChange={searchHandler}
-        value={searchInput}
+        value={searchText}
       />
-      <QuestionsFeed filteredQuestions={filteredQuestions} />
     </div>
   );
 };
