@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -13,7 +11,7 @@ body {
   background-color: #eaecee;
 }
 
-input {
+.search-bar {
   padding: 0.5rem;
   border-radius: 15px;
   width: 300px;
@@ -97,4 +95,12 @@ input {
   line-height: 16px;
   margin-bottom: 10px;
   max-width: 400px;
+}
+
+.radio-button-container {
+  display: block;
+}
+
+.radio-button-container ul li {
+  list-style-type: none;
 }

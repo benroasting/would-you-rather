@@ -121,8 +121,8 @@ const data = [
     question2:
       "park in a handicapped spot right in front of a guy in a wheelchair?",
     category: {
-      tag: "rude",
-      color: "gray",
+      tag: "awkward",
+      color: "#FFB5F7",
     },
   },
   {
@@ -207,6 +207,57 @@ const data = [
     category: {
       tag: "pain",
       color: "#DD6D6D",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Have fantastic meals but vomit after each one ",
+    question2: "always have to eat food you hate?",
+    category: {
+      tag: "gross",
+      color: "#A2D9CE",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Lie about your employment history if the job of your dreams depended on it ",
+    question2:
+      "lie about your love history if it meant marrying the person of your dreams?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Have a little man that lives in your mouth and incessantly hammers on your teeth with a pick",
+    question2:
+      "coexist with a small bird that lives on your nose and yanks out your nose hairs at its discretion?",
+    category: {
+      tag: "weird",
+      color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Only be able to spend a total of 3 months a year with your spouse ",
+    question2: "be handcuffed together for life?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Have nine lives ",
+    question2:
+      "three wishes (excluding extra lives, immortality, invincibility, or more wishes?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
     },
   },
 ];
