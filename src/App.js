@@ -7,7 +7,9 @@ import data from "./data";
 
 function App() {
   const [searchInput, setSearchInput] = useState("");
-  const [radioInput, setRadioInput] = useState("");
+  const handleFilters = (filters, category) => {
+    console.log(filters);
+  };
 
   const filteredQuestions = data.filter((data) => {
     return (
@@ -21,7 +23,9 @@ function App() {
     <div className="App">
       <h1>Would You Rather ...</h1>
       <Search onChange={setSearchInput} searchText={searchInput} />
-      <ButtonFilter onChange={radioInput} radioFilter={setRadioInput} />
+      <ButtonFilter
+        handleFilters={(filters) => handleFilters(filters, "categories")}
+      />
       <QuestionsFeed filteredQuestions={filteredQuestions} />
     </div>
   );
