@@ -260,6 +260,63 @@ const data = [
       color: "#F1C40F",
     },
   },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Be wrongly accused of assaulting a senior citizen ",
+    question2: "wrongly accused of flashing a school bus of little kids?",
+    category: {
+      tag: "weird",
+      color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Have a child so smart and successful that he never needs nor desires your companionship ",
+    question2:
+      "have a child always in trouble and needing you to bail them out?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Be a hermit and only speak to another person once a month ",
+    question2: "be a socializer and have to talk to 200 people everyday?",
+    category: {
+      tag: "weird",
+      color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Have to write a 10-page paper entirely in Morse code",
+    question2: "in pig Latin?",
+    category: {
+      tag: "random",
+      color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Have a scientist make one baby clone of you ",
+    question2: "never have any biological chidlren at all?",
+    category: {
+      tag: "weird",
+      color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Having been married for 50 years, die before your spouse knowing they will be healthy but heart-broken for another 20 years ",
+    question2: "watch your spouse die before you?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
+    },
+  },
 ];
 
 export default data;

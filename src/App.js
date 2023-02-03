@@ -7,9 +7,7 @@ import data from "./data";
 
 function App() {
   const [searchInput, setSearchInput] = useState("");
-  const handleFilters = (filters, category) => {
-    console.log(filters);
-  };
+  const [checkCategory, setCheckCategory] = useState([]);
 
   const filteredQuestions = data.filter((data) => {
     return (
@@ -18,6 +16,18 @@ function App() {
       data.question2.toLowerCase().includes(searchInput.toLowerCase())
     );
   });
+
+  const showFilteredCategories = data.filter((data, filters) => {
+    return data.category.tag === filters;
+  });
+
+  const handleFilters = (filters, category) => {
+    const checkboxFilters = { ...checkCategory };
+    checkboxFilters[category] = filters;
+
+    showFilteredCategories(checkboxFilters);
+    setCheckCategory(checkboxFilters);
+  };
 
   return (
     <div className="App">
