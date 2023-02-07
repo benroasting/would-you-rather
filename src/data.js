@@ -11,7 +11,7 @@ const data = [
   {
     header: "WOULD YOU RATHER...",
     question1: "Always have to write with your feet ",
-    question2: "Always have t write with a pen between your elbows?",
+    question2: "Always have to write with a pen between your elbows?",
     category: {
       tag: "weird",
       color: "#AF7AC5",
@@ -166,7 +166,7 @@ const data = [
   {
     header: "WOULD YOU RATHER...",
     question1: "Sleep on a hardwood floor every night",
-    question2: "always drinks three cups ofcoffee right before bed?",
+    question2: "always drinks three cups of coffee right before bed?",
     category: {
       tag: "random",
       color: "#EB984E",
