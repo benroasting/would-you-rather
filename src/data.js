@@ -317,6 +317,61 @@ const data = [
       color: "#F1C40F",
     },
   },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Have an emotional bomb dropped on you once  ",
+    question2: "emotional paper cuts your whole life?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Have a painless disease that disfigures your face greatly ",
+    question2: "an extremely painful disease that is internal?",
+    category: {
+      tag: "pain",
+      color: "#DD6D6D",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Redo your life, with parents who partied too much and had no morals ",
+    question2: "were militantly strict and always went by the book?",
+    category: {
+      tag: "random",
+      color: "#EB984E",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Give CPR to a homeless person ",
+    question2: "help a woman in a stuck elevator give birth?",
+    category: {
+      tag: "awkward",
+      color: "#FFB5F7",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Have arms that hang to the ground ",
+    question2: "be seven feet tall with your legs being only two feet long?",
+    category: {
+      tag: "awkward",
+      color: "#FFB5F7",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Live out the rest of your life as the only person on Earth  ",
+    question2: "have one week left to live?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
+    },
+  },
 ];
 
 export default data;
