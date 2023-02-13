@@ -1,29 +1,36 @@
-import React, { useState } from "react";
+import React from "react";
 import categories from "../categories";
 
 export default function ButtonFilter(props) {
-  const [checkBoxInput, setcheckBoxInput] = useState([]);
+  const isChecked = (value) => props.checked.includes(value);
 
   const handleSearchToggle = (value) => {
-    const currentIndex = checkBoxInput.indexOf(value);
-    const newCheck = [...checkBoxInput];
-
-    if (currentIndex === -1) {
-      newCheck.push(value);
+    if (isChecked(value)) {
+      props.onRemove(value);
     } else {
-      newCheck.splice(currentIndex, 1);
+      props.onAdd(value);
     }
-
-    setcheckBoxInput(newCheck);
-    props.handleFilters(newCheck);
   };
 
+  // const handleSearchToggle = (value) => {
+  //   const currentIndex = props.checked.indexOf(value);
+  //   const newCheck = [...props.checked];
+
+  //   if (currentIndex === -1) {
+  //     newCheck.push(value);
+  //   } else {
+  //     newCheck.splice(currentIndex, 1);
+  //   }
+
+  //   props.onChange(newCheck);
+  // };
+
   const checkBoxList = () =>
-    categories.map((category, index) => (
+    categories.map((category) => (
       <div>
         <input
           type="checkbox"
-          checked={checkBoxInput.indexOf(category.id) === -1 ? false : true}
+          checked={props.checked.indexOf(category.id) === -1 ? false : true}
           onChange={() => handleSearchToggle(category.id)}
         />
         <span>{category.category}</span>

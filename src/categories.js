@@ -1,3 +1,14 @@
+// const cateogries = [
+//   {
+//     id: 'thoughtful',
+//     title: "Thoughtful"
+//   },
+//   {
+//     id: 'weird',
+//     title: "Weird"
+//   }
+// ]
+
 const categories = [
   {
     id: 1,

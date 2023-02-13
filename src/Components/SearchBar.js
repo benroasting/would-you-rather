@@ -1,7 +1,6 @@
 import React from "react";
 
 const Search = ({ onChange, searchText }) => {
-  console.log(onChange);
   const searchHandler = (e) => {
     e.preventDefault();
     onChange(e.target.value);

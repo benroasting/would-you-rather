@@ -4,29 +4,38 @@ import Search from "./Components/SearchBar";
 import QuestionsFeed from "./Components/QuestionsFeed";
 import ButtonFilter from "./Components/ButtonFilter";
 import data from "./data";
+import categories from "./categories";
 
 function App() {
   const [searchInput, setSearchInput] = useState("");
   const [checkCategory, setCheckCategory] = useState([]);
 
-  const filteredQuestions = data.filter((data) => {
-    return (
-      data.category.tag.toLowerCase().includes(searchInput.toLowerCase()) ||
-      data.question1.toLowerCase().includes(searchInput.toLowerCase()) ||
-      data.question2.toLowerCase().includes(searchInput.toLowerCase())
+  const filteredQuestions = data.filter((card) => {
+    const isQuestionMatch =
+      card.question1.toLowerCase().includes(searchInput.toLowerCase()) ||
+      card.question2.toLowerCase().includes(searchInput.toLowerCase());
+
+    const isCategoryMatch =
+      checkCategory.length === 0 ||
+      categories
+        .filter((c) => checkCategory.includes(c.id))
+        .some((c) => c.category === card.category.tag);
+
+    return isQuestionMatch && isCategoryMatch;
+  });
+
+  const onAddCategory = (category) => {
+    checkCategory.push(category);
+    console.log("adding", category, checkCategory);
+    setCheckCategory([...checkCategory]);
+  };
+
+  const onRemoveCategory = (category) => {
+    console.log(
+      checkCategory.filter((c) => c !== category),
+      category
     );
-  });
-
-  const showFilteredCategories = data.filter((data, filters) => {
-    return data.category.tag === filters;
-  });
-
-  const handleFilters = (filters, category) => {
-    const checkboxFilters = { ...checkCategory };
-    checkboxFilters[category] = filters;
-
-    showFilteredCategories(checkboxFilters);
-    setCheckCategory(checkboxFilters);
+    setCheckCategory(checkCategory.filter((c) => c !== category));
   };
 
   return (
@@ -34,7 +43,10 @@ function App() {
       <h1>Would You Rather ...</h1>
       <Search onChange={setSearchInput} searchText={searchInput} />
       <ButtonFilter
-        handleFilters={(filters) => handleFilters(filters, "categories")}
+        onChange={setCheckCategory}
+        checked={checkCategory}
+        onAdd={onAddCategory}
+        onRemove={onRemoveCategory}
       />
       <QuestionsFeed filteredQuestions={filteredQuestions} />
     </div>
