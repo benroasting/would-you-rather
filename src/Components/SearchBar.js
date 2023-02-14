@@ -7,7 +7,7 @@ const Search = ({ onChange, searchText }) => {
   };
 
   return (
-    <div>
+    <div className="searchBar">
       <input
         className="search-bar"
         type="search"

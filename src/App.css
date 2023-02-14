@@ -4,11 +4,14 @@
 }
 
 body {
+  background-color: #eaecee;
+}
+
+.App {
   display: flex;
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #eaecee;
 }
 
 .search-bar {
@@ -26,8 +29,8 @@ body {
 
 .question {
   display: flex;
+  margin: auto;
   justify-content: flex-start;
-  padding-right: 30px;
   position: relative;
   width: 75%;
 }
@@ -38,11 +41,9 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 15px;
   position: relative;
   width: 600px;
-  text-align: right;
   margin-bottom: 1rem;
 }
 
@@ -59,14 +60,23 @@ body {
 }
 
 .question:nth-child(odd) .question-content {
-  text-align: left;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 }
 
 .question:nth-child(odd) .question-content::after {
   left: calc(75% - 7.5px);
 }
 
+.title {
+  font-weight: bold;
+}
+
+.question-content p {
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 10px;
+  max-width: 400px;
+}
 .question-content .tag {
   color: #fff;
   font-size: 12px;
@@ -81,26 +91,17 @@ body {
   margin-bottom: 1rem;
 }
 
-/* .question:nth-child(odd) .question-content .tag {
-  left: auto;
-  right: 5px;
-} */
-
-.title {
-  font-weight: bold;
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
 }
 
-.question-content p {
-  font-size: 16px;
-  line-height: 16px;
-  margin-bottom: 10px;
-  max-width: 400px;
+.searchBar {
+  margin-bottom: 1rem;
+  margin: auto;
 }
 
-.radio-button-container {
-  display: block;
-}
-
-.radio-button-container ul li {
-  list-style-type: none;
+.eachCheckbox {
+  margin: 0.5rem;
 }

@@ -54,7 +54,7 @@ const data = [
     question2: "marry someone your parents chose?",
     category: {
       tag: "random",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -72,7 +72,7 @@ const data = [
     question2: "pick someone up from the airport 15 times?",
     category: {
       tag: "random",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -112,7 +112,7 @@ const data = [
       "(as a girl) never shave or remove any body hair/(as a boy) shave all body hair but not have the excuse of athletics?",
     category: {
       tag: "random",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -141,7 +141,7 @@ const data = [
     question2: "marry someone with no sense of humor?",
     category: {
       tag: "weird",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -150,7 +150,7 @@ const data = [
     question2: "your ability to walk for a year?",
     category: {
       tag: "weird",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -169,7 +169,7 @@ const data = [
     question2: "always drinks three cups of coffee right before bed?",
     category: {
       tag: "random",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -188,7 +188,7 @@ const data = [
     question2: "jog through the desert for two hours in a heavy wool coat?",
     category: {
       tag: "random",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -197,7 +197,7 @@ const data = [
     question2: "someone who repeats everything you just said?",
     category: {
       tag: "weird",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -237,7 +237,7 @@ const data = [
       "coexist with a small bird that lives on your nose and yanks out your nose hairs at its discretion?",
     category: {
       tag: "weird",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -266,7 +266,7 @@ const data = [
     question2: "wrongly accused of flashing a school bus of little kids?",
     category: {
       tag: "weird",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -286,7 +286,7 @@ const data = [
     question2: "be a socializer and have to talk to 200 people everyday?",
     category: {
       tag: "weird",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -295,7 +295,7 @@ const data = [
     question2: "in pig Latin?",
     category: {
       tag: "random",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -304,7 +304,7 @@ const data = [
     question2: "never have any biological chidlren at all?",
     category: {
       tag: "weird",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {
@@ -342,7 +342,7 @@ const data = [
     question2: "were militantly strict and always went by the book?",
     category: {
       tag: "random",
-      color: "#EB984E",
+      color: "#AF7AC5",
     },
   },
   {

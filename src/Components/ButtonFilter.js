@@ -12,22 +12,9 @@ export default function ButtonFilter(props) {
     }
   };
 
-  // const handleSearchToggle = (value) => {
-  //   const currentIndex = props.checked.indexOf(value);
-  //   const newCheck = [...props.checked];
-
-  //   if (currentIndex === -1) {
-  //     newCheck.push(value);
-  //   } else {
-  //     newCheck.splice(currentIndex, 1);
-  //   }
-
-  //   props.onChange(newCheck);
-  // };
-
   const checkBoxList = () =>
     categories.map((category) => (
-      <div>
+      <div className="eachCheckbox">
         <input
           type="checkbox"
           checked={props.checked.indexOf(category.id) === -1 ? false : true}
@@ -37,5 +24,5 @@ export default function ButtonFilter(props) {
       </div>
     ));
 
-  return <div>{checkBoxList()}</div>;
+  return <div className="checkbox-container">{checkBoxList()}</div>;
 }

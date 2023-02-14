@@ -26,15 +26,10 @@ function App() {
 
   const onAddCategory = (category) => {
     checkCategory.push(category);
-    console.log("adding", category, checkCategory);
     setCheckCategory([...checkCategory]);
   };
 
   const onRemoveCategory = (category) => {
-    console.log(
-      checkCategory.filter((c) => c !== category),
-      category
-    );
     setCheckCategory(checkCategory.filter((c) => c !== category));
   };
 
