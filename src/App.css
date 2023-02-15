@@ -14,11 +14,32 @@ body {
   min-height: 100vh;
 }
 
+/* search bar styles */
+
+.search-container {
+  margin-bottom: 1rem;
+  margin: auto;
+}
+
 .search-bar {
   padding: 0.5rem;
   border-radius: 15px;
   width: 300px;
 }
+
+/* checkbox filters styles */
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+
+.eachCheckbox {
+  margin: 0.5rem;
+}
+
+/* question cards and feed styles */
 
 .questions-container {
   display: flex;
@@ -59,10 +80,6 @@ body {
   height: 15px;
 }
 
-.question:nth-child(odd) .question-content {
-  /* align-items: flex-start; */
-}
-
 .question:nth-child(odd) .question-content::after {
   left: calc(75% - 7.5px);
 }
@@ -89,19 +106,4 @@ body {
   border-radius: 15px;
   position: absolute;
   margin-bottom: 1rem;
-}
-
-.checkbox-container {
-  display: flex;
-  flex-direction: row;
-  margin-top: 0.5rem;
-}
-
-.searchBar {
-  margin-bottom: 1rem;
-  margin: auto;
-}
-
-.eachCheckbox {
-  margin: 0.5rem;
 }
