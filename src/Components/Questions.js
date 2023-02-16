@@ -4,7 +4,9 @@ const Question = ({ color, tag, header, question1, question2 }) => (
       <span className="tag" style={{ background: color }}>
         {tag}
       </span>
-      <p className="title">{header}</p>
+      <p data-testid="header" className="title">
+        {header}
+      </p>
       <p>{question1}</p>
       <p>~ OR ~</p>
       <p>{question2}</p>
