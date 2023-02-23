@@ -372,6 +372,53 @@ const data = [
       color: "#F1C40F",
     },
   },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Break your leg and have to run one mile for help",
+    question2:
+      "break your arms in a car wreck and have to carry your firend 100 yeards clear of the rubble?",
+    category: {
+      tag: "pain",
+      color: "#DD6D6D",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Eat a sandwich bag full of lawn clippings ",
+    question2: "eat one live earthworm?",
+    category: {
+      tag: "gross",
+      color: "#A2D9CE",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Intentionally put yourself through a bad, awkward weekend  ",
+    question2: "feel like you let your extended family down?",
+    category: {
+      tag: "thoughtful",
+      color: "#F1C40F",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Be confined to very small, clear bubble ",
+    question2: "to an enormous, dark room?",
+    category: {
+      tag: "random",
+      color: "#AF7AC5",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Be hunted for sport in some kind of twisted survival game with no guarantee of survival",
+    question2: "experimented on like a lab animal and be guaranteed survival?",
+    category: {
+      tag: "pain",
+      color: "#DD6D6D",
+    },
+  },
 ];
 
 export default data;
