@@ -376,7 +376,7 @@ const data = [
     header: "WOULD YOU RATHER...",
     question1: "Break your leg and have to run one mile for help",
     question2:
-      "break your arms in a car wreck and have to carry your firend 100 yeards clear of the rubble?",
+      "break your arms in a car wreck and have to carry your friend 100 yards clear of the rubble?",
     category: {
       tag: "pain",
       color: "#DD6D6D",
@@ -417,6 +417,15 @@ const data = [
     category: {
       tag: "pain",
       color: "#DD6D6D",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Confuse muffins and babies ",
+    question2: "change genders every time you sneeze?",
+    category: {
+      tag: "random",
+      color: "#AF7AC5",
     },
   },
 ];
