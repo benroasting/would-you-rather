@@ -428,6 +428,55 @@ const data = [
       color: "#AF7AC5",
     },
   },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "If you had to come up with $50,000 in five days to get a sibling out of jail, try to steal it ",
+    question2: "go to Vegas?",
+    category: {
+      tag: "random",
+      color: "#AF7AC5",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "If you had to come up with $50,000 in five days to get a sibling out of jail, try to steal it ",
+    question2: "go to Vegas?",
+    category: {
+      tag: "random",
+      color: "#AF7AC5",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Be able to run 30 mph, but only if you are standing on your hands ",
+    question2: "sing incredibly beautifully, but only if you are naked?",
+    category: {
+      tag: "random",
+      color: "#AF7AC5",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1: "Get clubbed in the shins with a baseball bat",
+    question2: "get conked in the head with a big iron skillet?",
+    category: {
+      tag: "pain",
+      color: "#DD6D6D",
+    },
+  },
+  {
+    header: "WOULD YOU RATHER...",
+    question1:
+      "Be left completely naked with no possessions in a foreign country ",
+    question2: "in your place of work?",
+    category: {
+      tag: "weird",
+      color: "#AF7AC5",
+    },
+  },
 ];
 
 export default data;
