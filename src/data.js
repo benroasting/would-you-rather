@@ -441,16 +441,6 @@ const data = [
   {
     header: "WOULD YOU RATHER...",
     question1:
-      "If you had to come up with $50,000 in five days to get a sibling out of jail, try to steal it ",
-    question2: "go to Vegas?",
-    category: {
-      tag: "random",
-      color: "#AF7AC5",
-    },
-  },
-  {
-    header: "WOULD YOU RATHER...",
-    question1:
       "Be able to run 30 mph, but only if you are standing on your hands ",
     question2: "sing incredibly beautifully, but only if you are naked?",
     category: {
